@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 html,
@@ -10,3 +10,12 @@ body {
 }
 
 /* Add styles here! */
+.max-width-wrapper {
+  max-width: 100%;
+  padding-top: 5rem;
+}
+
+.intro-chunk {
+  width: 50%;
+  margin: 0 auto;
+}
