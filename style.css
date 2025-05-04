@@ -10,12 +10,45 @@ body {
 }
 
 /* Add styles here! */
-.max-width-wrapper {
-  max-width: 100%;
-  padding-top: 5rem;
+header {
+  padding: 5rem 0;
 }
 
-.intro-chunk {
+.max-width-wrapper {
+  max-width: 100%;
+}
+
+main {
+  background-color: hsl(0deg, 0%, 40%);
+  border-top: 10px solid hsl(0deg, 0%, 60%);
+  padding-bottom: 5rem;
+}
+
+.intro-chunk,
+.card {
   width: 50%;
   margin: 0 auto;
+}
+
+.intro-chunk h1 {
+  font-size: 2.25rem;
+  margin-bottom: 4rem;
+}
+
+.intro-chunk p {
+  max-width: 75%;
+  font-size: 1.35rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.intro-chunk p strong {
+  color: hsl(160deg, 100%, 30%);
+}
+.intro-chunk p:last-of-type {
+  max-width: 60%;
+}
+
+.card {
+  background-color: white;
 }
