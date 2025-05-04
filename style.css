@@ -11,7 +11,7 @@ body {
 
 /* Add styles here! */
 header {
-  padding: 5rem 0;
+  margin: 5rem 0;
 }
 
 .max-width-wrapper {
@@ -21,7 +21,6 @@ header {
 main {
   background-color: hsl(0deg, 0%, 40%);
   border-top: 10px solid hsl(0deg, 0%, 60%);
-  padding-bottom: 5rem;
 }
 
 .intro-chunk,
